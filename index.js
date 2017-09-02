@@ -1,4 +1,4 @@
-const quotes = require("./quotesLibrary.js")
+const quotes = require("./quotes_library.js")
 
 const printQuote =  function() {
   const index = Math.floor(Math.random() * quotes.length);
